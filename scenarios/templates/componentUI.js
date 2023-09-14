@@ -1,5 +1,5 @@
 export const componentUITemplate = componentName => `import { FC } from 'react';
-import styles './${componentName}.module.scss;
+import styles './${componentName}.module.scss';
 
 interface I${componentName}Props {};
 
