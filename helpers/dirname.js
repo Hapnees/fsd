@@ -1,4 +1,4 @@
-export const __dirname = process.cwd().split('/').slice(0, -1).join('/')
+export const __dirname = process.cwd()
 
 export const resolve = (...dirs) => {
   const incomingPath = dirs.reduce((accum, item) => accum + '/' + item, '')
